@@ -13,7 +13,9 @@
     "orm"
   ],
   "main": "./lib/scarab",
-  "scripts": {},
+  "scripts": {
+    "postdeploy": "npm install"
+  },
   "directories": {
     "lib": "lib"
   },
