@@ -20,12 +20,13 @@
     "lib": "lib"
   },
   "dependencies": {
-    "express": "~3.4.0",
+    "express": "~3.4.7",
     "sugar": "~1.4.1",
-    "consolidate": "~0.9.1",
+    "consolidate": "~0.10.0",
     "databank": "~0.19.0",
     "async": "~0.2.9",
-    "winston": "~0.7.2"
+    "winston": "~0.7.2",
+    "connect-multiparty": "~1.0.1"
   },
   "devDependencies": {},
   "licenses": [],
