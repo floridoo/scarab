@@ -294,3 +294,14 @@ module.exports.viewEngines = {
 
 #### Policies
 * `policies`: See chapter **Policies** above
+
+
+## Asset compilation
+
+Scarab does not bundle asset compilation functionality. The angular sample includes a Gruntfile that features file watching with live recompilation and automatic browser reload.
+
+##### Usage:
+* install [Grunt](http://gruntjs.com/): `npm install -g grunt-cli`
+* start server: `grunt server`
+* start server in production mode: `grunt server:dist`
+* build assets for production: `grunt build`

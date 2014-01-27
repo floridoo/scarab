@@ -128,8 +128,7 @@ module.exports = function (grunt) {
 		},
 		open: {
 			dev: {
-				path: 'http://192.168.1.29:<%= scarab.options.port %>/admin/'
-				// path: 'http://192.168.0.18:<%= scarab.options.port %>/admin/'
+				path: 'http://localhost:<%= scarab.options.port %>/admin/'
 			}
 		},
 		clean: {

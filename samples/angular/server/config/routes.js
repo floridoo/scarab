@@ -26,13 +26,13 @@
 
 module.exports.routes = {
 	'get ^/admin$': '/admin/',
-	'static /admin': '../dist',
+	'static /': '../dist',
 
-	'get /auth/user': 'auth.user',
-	'post /auth/persona': 'auth.user',
-	'get /auth/logout': 'auth.logout',
+	// 'get /auth/user': 'auth.user',
+	// 'post /auth/persona': 'auth.user',
+	// 'get /auth/logout': 'auth.logout',
 
-	'static /content': '../static/content'
+	// 'static /content': '../static/content'
 };
 
 

@@ -7,7 +7,7 @@
     "postdeploy": "npm install && bower install && grunt build"
   },
   "dependencies": {
-    "scarab": "*",
+    "scarab": "floridoo/scarab",
     "databank-leveldb": "~0.2.1",
     "ejs": "~0.8.4",
     "passport": "~0.1.17",
@@ -40,7 +40,7 @@
     "connect-livereload": "~0.3.1",
     "grunt-ngmin": "~0.0.3",
     "grunt-express-server": "~0.4.0",
-    "grunt-scarab": "0.0.1",
+    "grunt-scarab": "floridoo/grunt-scarab",
     "grunt-contrib-jade": "~0.8.0",
     "grunt-symlink": "~0.4.0",
     "grunt-angular-templates": "~0.5.1"
