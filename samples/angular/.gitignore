@@ -1,0 +1,8 @@
+.DS_Store
+node_modules
+/dist
+/.tmp
+/app/bower_components
+~local.js
+*.sublime-*
+/db
