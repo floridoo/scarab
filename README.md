@@ -258,7 +258,7 @@ module.exports.db = {
 };
 ```
 
-#### Middlware
+#### Middleware
 * `middleware`: a function which gets the app as a parameter. Define custom middleware here.
 
 ```javascript
