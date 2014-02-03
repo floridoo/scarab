@@ -8,11 +8,6 @@ The structure is inspired by [Rails](http://rubyonrails.org/) and [Sails.js](htt
 * provide structure
 * keep it simple and readable (~500 lines of code).
 
-## Installation
-```
-> npm install floridoo/scarab
-```
-
 ## Bootstrap the app
 
 To start a server in the current directory:
