@@ -213,7 +213,7 @@ module.exports.policies = {
 * `host`: Server Hostname (default: `localhost`)
 * `port`: Server port (default: `8080`)
 * `user`: User the server should run on (default: `undefined`, meaning the current user)
-* `group`: Gropu the server should run on (default: `undefined`, meaning the current user)
+* `group`: Group the server should run on (default: `undefined`, meaning the current user)
 * `logFile`: Logfile (default: `undefined`, only output to stdout)
 * `modelGlobals`: if true, each model is added to the global namespace, otherwise just accessible by `app.models` (default: `true`)
 
